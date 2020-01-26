@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head lang="en">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MDA-Kontakt</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="cssKontakt.css">
+</head>
+
+<body>
+    <header>   
+        <div class="nav">
+            <div class="brand">
+                <img class="logo" src="../Slike/MDA.png">    
+            </div>
+            <ul class="nav-items">
+                <li class="nav-item"><a href="../Pocetna/pocetna.html">Početna</a></li>
+                <li class="nav-item"><a href="../O nama/o nama.html">O nama</a></li>            
+                <li class="nav-item"><a href="../Ponuda/ponuda.html">Ponuda</a></li>
+                <li class="nav-item"id="nav-mark"><a href="#">Kontakt</a></li>
+                <li class="nav-item"><a href="../Student/student.html">Student</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="showcase">
+            <div class="showcase-area"> 
+                <h1>Kontakt forma</h1>
+                <form id="contactme">
+                    <div class="input-container">
+                        <label for="name">Ime i prezime:</label>
+                        <input type="text" name="imeprezime" placeholder="npr. emel-hodzic">
+                        <div class="message-box"></div>
+                    </div>
+                    <div class="input-container">
+                        <label for="e-mail">E-mail:</label>
+                        <input type="text" name="email" placeholder="npr. !user@domen.com">
+                        <div class="message-box"></div>
+                    </div>
+                    <div class="input-container">
+                        <p>Poruka:</p>
+                        <textarea placeholder="Sviđa mi se sajt" name="poruka" maxlength="500" style="width: 60%; height: 100px;"></textarea>
+                        <div class="message-box"></div>
+                    </div>
+                    <input type="submit" value="Pošalji">
+                </form>
+            </div>
+        </div>
+    </div>  
+    <footer>
+
+        <div class="foot">
+            <div class="foot-paragraph">
+                <p>
+                    Copyright &copy 2020 Emel Hodžić
+                </p>
+            </div>
+        </div>
+    </footer>
+    <div class="language">
+        <div class="nav-language">
+            <p class="nav-language-item"><a href="#">Srb</a></p>
+            <p class="nav-language-item"><a href="kontaktEng.html">Eng</a></p>
+        </div>
+    </div>
+    <script src="konakt.js"></script>
+</body>
+</html>
